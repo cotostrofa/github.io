@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Knight Game</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.7.0/dist/web3.min.js"></script>
+</head>
+<body>
+    <h1>Knight Game</h1>
+    <button onclick="connectWallet()">Connect Wallet</button>
+    <div>
+        <input id="charName" placeholder="Character Name">
+        <button onclick="createCharacter()">Create Character</button>
+    </div>
+    <button onclick="collectResources()">Collect Resources</button>
+    <button onclick="craftSword()">Craft Sword</button>
+    <button onclick="fightEnemy()">Fight Enemy</button>
+    <p>Character: <span id="charInfo"></span></p>
+    <p>Resources: <span id="resources"></span></p>
+
+    <script src="./game.js"></script>
+</body>
+</html>
